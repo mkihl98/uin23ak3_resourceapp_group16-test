@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       <p>Hei</p>
+      <p>Hei</p>
     </>
   )
 }
