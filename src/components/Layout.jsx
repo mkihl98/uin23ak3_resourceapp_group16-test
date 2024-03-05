@@ -1,16 +1,16 @@
+import { Link } from "react-router-dom"
+
 export default function Layout(){
     return(
     <>
-        <body>
+        <header>
             <nav>
             
             </nav>
-
-            <main>
-        
-            </main>
-    
-        </body>
+        </header>
+        <main>
+            {content}
+        </main>
     </>
     )
 }
