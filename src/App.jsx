@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Layout from './components/Layout'
+import { useState } from 'react'
 
 function App() {
   const [content, setContent] = useState([])
