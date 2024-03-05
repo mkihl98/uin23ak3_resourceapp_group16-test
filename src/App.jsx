@@ -1,18 +1,18 @@
-import { useState } from 'react'
 import './App.css'
+import Html from './components/HTML'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-
-
-      <p>hei</p>
-      <p>Hei</p>
-      <p>Hei</p>
-
-    </>
+    <Layout>
+      <Routes>
+        <Route index element={<Html />}/>
+        <Route element={<CSS />}/>
+        <Route element={<JavaScript />}/>
+        <Route element={<React />}/>
+        <Route element={<Sanity />}/>
+      </Routes>
+    </Layout>
   )
 }
 
