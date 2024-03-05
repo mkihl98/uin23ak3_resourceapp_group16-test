@@ -1,4 +1,4 @@
-export default function Html(){
+export default function Html({content}){
     return(
         <>
             <h1>HTML</h1>
