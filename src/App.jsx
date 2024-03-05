@@ -7,11 +7,11 @@ function App() {
   return (
     <Layout>
       <Routes>
-        <Route index element={<Html content={content}/>}/>
-        <Route element={<CSS />}/>
+        <Route path=':slug' element={<Home />}/>
+        {/*<Route element={<CSS />}/>
         <Route element={<JavaScript />}/>
         <Route element={<React />}/>
-        <Route element={<Sanity />}/>
+        <Route element={<Sanity />}/>*/}
       </Routes>
     </Layout>
   )
