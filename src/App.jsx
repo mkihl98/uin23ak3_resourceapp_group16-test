@@ -5,7 +5,7 @@ import Layout from './components/Layout'
 import { useEffect, useState } from 'react'
 
 function App() {
-  const [content, setContent] = useState([])
+  const [content, setContent] = useState("hei")
 
   const getData = async()=>{
     try{
