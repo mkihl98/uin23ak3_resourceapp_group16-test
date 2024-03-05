@@ -8,9 +8,11 @@ export default function ContentPage({category}){
            <main>
                 <Title category={id} />
                 {resources.map(resource =>
-                    <infoCard>
-                        
-                    </infoCard>
+                    <InfoCard 
+                    
+                    
+                    
+                    />
                     )}
            </main>
         </>
