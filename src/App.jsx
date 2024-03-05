@@ -2,7 +2,7 @@ import {Route, Routes} from 'react-router-dom'
 import './App.css'
 import Html from './components/Home'
 import Layout from './components/Layout'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 function App() {
   const [content, setContent] = useState("hei")
@@ -17,12 +17,10 @@ function App() {
     }
   }
 
-  useEffect(()=>{
-    getData()
-  },[])
+ 
 
   return (
-    <Layout>
+    <Layout category={category}>
       <Routes>
         <Route index element={<Html content={content}/>}/>
         <Route element={<CSS />}/>
