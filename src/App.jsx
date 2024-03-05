@@ -4,6 +4,7 @@ import Html from './components/Html'
 import Layout from './components/Layout'
 
 function App() {
+  const [content, setContent] = useState([])
 
   return (
     <Layout>
