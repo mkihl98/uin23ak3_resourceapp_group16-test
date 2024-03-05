@@ -2,10 +2,24 @@ import {Route, Routes} from 'react-router-dom'
 import './App.css'
 import Html from './components/Html'
 import Layout from './components/Layout'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 function App() {
   const [content, setContent] = useState([])
+
+  const getData = async()=>{
+    try{
+      const response = await fetch(content)
+      const data = await response.json()
+      setContent(data)
+    }catch{
+      console.error("Det har skjedd en feil")
+    }
+  }
+
+  useEffect(()=>{
+    getData()
+  },[])
 
   return (
     <Layout>
