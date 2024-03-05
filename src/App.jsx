@@ -8,7 +8,7 @@ function App() {
   return (
     <Layout>
       <Routes>
-        <Route index element={<Html />}/>
+        <Route index element={<Html content={content}/>}/>
         <Route element={<CSS />}/>
         <Route element={<JavaScript />}/>
         <Route element={<React />}/>
