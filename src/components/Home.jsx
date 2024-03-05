@@ -5,4 +5,4 @@ export default function Html({content}){
             <p>Her kommer det informasjon om HTML</p>
         </>
     )
-}
+}   

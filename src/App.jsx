@@ -1,6 +1,6 @@
 import {Route, Routes} from 'react-router-dom'
 import './App.css'
-import Html from './components/Html'
+import Html from './components/Home'
 import Layout from './components/Layout'
 import { useEffect, useState } from 'react'
 
