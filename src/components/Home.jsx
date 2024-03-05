@@ -1,8 +1,8 @@
-export default function Html({content}){
+import { useParams } from "react-router-dom"
+
+export default function Home(){
+    const {slug} = useParams()
     return(
-        <>
-            <h1>HTML</h1>
-            <p>Her kommer det informasjon om HTML</p>
-        </>
+        <h2>{slug}</h2>
     )
 }   
