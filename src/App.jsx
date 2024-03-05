@@ -3,7 +3,7 @@ import './App.css'
 import Layout from './components/Layout'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [content, setContent] = useState([])
 
   return (
     <>
