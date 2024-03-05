@@ -1,7 +1,3 @@
-export default function CSS(){
-    return(
-        <>
-           
-        </>
-    )
-}
+export default function Title({category}){
+    return (<h2>{category}</h2>)
+  }
