@@ -7,7 +7,7 @@ import { useState } from 'react'
 function App() {
   const [content, setContent] = useState("hei")
 
-  const getData = async()=>{
+  /*const getData = async()=>{
     try{
       const response = await fetch(content)
       const data = await response.json()
@@ -15,7 +15,7 @@ function App() {
     }catch{
       console.error("Det har skjedd en feil")
     }
-  }
+  }*/
 
  
 
